@@ -24,8 +24,25 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
-        <p class="view"><a href="https://github.com/women-in-ai-ireland/June-2024-Group-003">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        <p class="view"><a href="https://github.com/women-in-ai-ireland/June-2024-Group-003">View the Project on GitHub</a></p>
         {% endif %}
+
+        <div style="margin-top: 20px;">
+          <h3>Contributors:</h3>
+          <ul>
+            <li>
+              <strong>Shubhangi Kukreti</strong> | 
+              <a href="https://www.linkedin.com/in/shubhangikukreti/" target="_blank">LinkedIn</a> | 
+              <a href="https://github.com/ShubhangiKukreti" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <strong>Angela Kinnen</strong> | 
+              <a href="https://www.linkedin.com/in/angela-kinnen-a50866213/" target="_blank">LinkedIn</a> | 
+              <a href="https://github.com/AK-T2024" target="_blank">GitHub</a>
+            </li>
+            <!-- Add more contributors as needed -->
+          </ul>
+      </div>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
